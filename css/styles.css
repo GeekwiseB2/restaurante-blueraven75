@@ -1,0 +1,120 @@
+@import 'https://fonts.googleapis.com/css?family=Lobster|Raleway';
+
+/*NAVBAR SECTION*/
+
+.navbar-default {
+  background-color: transparent;
+  border: none;
+}
+
+.navbar-brand {
+  background-image: url('../img/name-01.png');
+  background-position:center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display:inline-block;
+  min-height: 10px;
+  width: 200px;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+  color: #fff;
+  background-color: rgba(0, 0, 0, .4)
+}
+/*CAROUSEL SECTION*/
+.item {
+  height:600px;
+  background-size: 100%;
+  background-position: center;
+}
+
+.carousel-caption {
+  margin-bottom: 100px;
+}
+
+.wood-img {
+  background-image: url('../img/wood-2.jpg');
+}
+
+#basic-logo {
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.table-seating-img {
+  background-image: url('../img/restaurant-2.jpg');
+}
+
+.farm-img {
+  background-image: url('../img/farm-2.jpg');
+}
+
+.btn-default {
+  background-color: #f8512f;
+  color: #fff;
+  border:none;
+}
+
+.btn-default:hover {
+  background-color: #d34326;
+}
+
+/*OUR STORY SECTION BEGINS*/
+#our_story_wrapper {
+  min-height: 80vh;
+}
+
+#our_story {
+  font-family: 'Lobster', cursive;
+  color: #f8512f;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 55px;
+}
+
+#our_story_subtext {
+  font-family: 'Raleway', sans-serif;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+#year_text {
+  position: absolute;
+  z-index: -2;
+  font-family: 'Playfair Display', serif;
+  color: rgba(149, 147, 147, 0.2);
+  font-size: 250px;
+}
+
+/*FRESNO BEE SECTION*/
+.fresnobee{
+  background-image: url('../img/food_review.jpg');
+  background-size: cover;
+}
+
+/*MENU SECTION*/
+#menu_background {
+  background-image: url('../img/black_linen.png');
+  background-size: cover;
+  min-height: 80vh;
+}
+
+#menu_heading {
+  font-family: "Lobster", cursive;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover, .nav-tabs>li>a {
+  color: #f8512f;
+}
+
+.thumbnail>.caption>p {
+  text-justify: center;
+}
+rgba( 20, 20, 20, .6)
